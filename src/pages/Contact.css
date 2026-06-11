@@ -1,0 +1,224 @@
+/* ============================================
+   CONTACT PAGE — PracinhaEnsina
+   ============================================ */
+
+.contact-page {
+  padding: 140px 24px 100px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-page .container {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Header */
+.contact-header {
+  text-align: center;
+  margin-bottom: 48px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.contact-header.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contact-header h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: 16px;
+}
+
+.contact-header p {
+  font-size: 1.05rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* WhatsApp Card */
+.contact-whatsapp-card {
+  padding: 48px 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease 0.15s, transform 0.7s ease 0.15s;
+}
+
+.contact-whatsapp-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.whatsapp-icon-large {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-icon-large svg {
+  width: 80px;
+  height: 80px;
+}
+
+.contact-whatsapp-card h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.contact-phone {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 28px;
+}
+
+.btn-whatsapp-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 40px;
+  border-radius: 14px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 24px rgba(34, 197, 94, 0.25), 0 0 48px rgba(34, 197, 94, 0.1);
+}
+
+.btn-whatsapp-contact:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 0 36px rgba(34, 197, 94, 0.4), 0 0 72px rgba(34, 197, 94, 0.15);
+}
+
+/* Info Items */
+.contact-info-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease 0.3s, transform 0.7s ease 0.3s;
+}
+
+.contact-info-items.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  border-radius: 16px;
+  background: rgba(19, 19, 26, 0.5);
+  border: 1px solid rgba(139, 92, 246, 0.08);
+  transition: border-color 0.3s ease;
+}
+
+.contact-info-item:hover {
+  border-color: rgba(139, 92, 246, 0.2);
+}
+
+.contact-info-icon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.12), rgba(168, 85, 247, 0.06));
+  color: #a855f7;
+}
+
+.contact-info-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-info-label {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.contact-info-value {
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.contact-info-value a {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info-value a:hover {
+  color: #a855f7;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 120px 20px 72px;
+    align-items: flex-start;
+  }
+
+  .contact-whatsapp-card {
+    padding: 36px 24px;
+  }
+
+  .whatsapp-icon-large {
+    width: 64px;
+    height: 64px;
+  }
+
+  .whatsapp-icon-large svg {
+    width: 64px;
+    height: 64px;
+  }
+
+  .btn-whatsapp-contact {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-info-item {
+    padding: 16px 20px;
+  }
+}
