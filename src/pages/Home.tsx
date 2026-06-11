@@ -72,11 +72,6 @@ export default function Home() {
         <div className="hero-glow-circle hero-glow-circle--3" />
 
         <div className="hero-content">
-          {/* AI Badge */}
-          <div className="hero-badge">
-            <span>🤖</span> Materiais criados com IA
-          </div>
-
           <h1>
             Aprenda inglês de verdade.{' '}
             <span className="gradient-text">No seu ritmo, do seu jeito.</span>
