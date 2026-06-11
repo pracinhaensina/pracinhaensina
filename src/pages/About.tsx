@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Camera } from 'lucide-react';
+import fotoGabriel from '../assets/foto-gabriel.jpg';
 import './About.css';
 
 function useScrollReveal() {
@@ -109,11 +109,14 @@ export default function About() {
               </p>
             </div>
 
-            {/* Photo placeholder column */}
+            {/* Photo column */}
             <div className="professor-photo-wrap">
               <div className="professor-photo-placeholder" id="professor-photo">
-                <Camera />
-                <span>Sua foto aqui</span>
+                <img
+                  src={fotoGabriel}
+                  alt="Professor Gabriel"
+                  className="professor-photo-img"
+                />
               </div>
             </div>
           </div>
