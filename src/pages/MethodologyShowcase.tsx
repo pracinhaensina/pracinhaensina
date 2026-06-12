@@ -8,11 +8,11 @@ const WHATSAPP_NUMBER = '5584986236412';
 const studentCases = [
   {
     id: 'moises',
-    name: 'Moisés Medeiros',
+    name: 'Thiago Souza',
     age: '28 anos',
     profession: 'Engenheiro de Software (TI)',
     level: 'Intermediário (B2) — Fluência Travada',
-    challenge: 'Moisés possui um vocabulário técnico excelente na leitura, mas trava na fala devido ao medo de errar e à falta de conectores lógicos para ligar suas ideias em reuniões de negócios.',
+    challenge: 'Thiago possui um vocabulário técnico excelente na leitura, mas trava na fala devido ao medo de errar e à falta de conectores lógicos para ligar suas ideias em reuniões de negócios.',
     planSteps: [
       { num: 1, title: 'Sentence Architecture', desc: 'Estruturação de respostas com conectores lógicos essenciais para evitar frases soltas e fragmentadas.' },
       { num: 2, title: 'Cohesion & Discourse Markers', desc: 'Uso de marcadores corporativos avançados (furthermore, however, consequently) para criar fluxo lógico contínuo.' },
