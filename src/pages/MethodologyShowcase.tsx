@@ -25,7 +25,7 @@ const studentCases = [
         { term: "Let's get down to business", def: "Expressão usada para iniciar a reunião direto no assunto principal.", ex: "Now that everyone is here, let's get down to business." },
         { term: "I'd like to point out that...", def: "Estrutura polida para chamar a atenção para uma informação crucial.", ex: "I'd like to point out that the deadline is next Friday." }
       ],
-      pronunciation: 'A pronúncia correta de "Management" é /ˈmæn.ɪdʒ.mənt/, com a sílaba tônica marcada logo no início (/ˈmæn/).',
+      pronunciation: 'A pronúncia correta de "Management" soa como MÁN-idj-ment, com a força total colocada na primeira sílaba.',
       challenge: 'Grave um áudio de 60 segundos abrindo uma reunião sobre o status do projeto e apontando um atraso sutil no cronograma.'
     }
   },
@@ -48,7 +48,7 @@ const studentCases = [
         { term: "I am staying for...", def: "Frase pronta para responder sobre o tempo de permanência no país.", ex: "I am staying for ten days." },
         { term: "I am here for tourism", def: "Frase segura para esclarecer o propósito da sua viagem.", ex: "I am here for tourism and shopping." }
       ],
-      pronunciation: 'A pronúncia de "Airport" é /ˈeə.pɔːt/, terminando de forma limpa no som de /t/ oclusivo, sem criar uma sílaba extra.',
+      pronunciation: 'A pronúncia de "Airport" soa como ÉR-pôrt. Termine o som de forma seca na consoante T, sem criar uma sílaba extra no final.',
       challenge: 'Responda à pergunta do oficial de imigração: "What is the purpose of your visit and how long will you stay?"'
     }
   },
@@ -71,7 +71,7 @@ const studentCases = [
         { term: "To put it in a nutshell", def: "Forma sofisticada de introduzir um resumo de suas ideias.", ex: "To put it in a nutshell, technology has changed communication forever." },
         { term: "A double-edged sword", def: "Expressão usada para falar sobre algo que traz vantagens e desvantagens.", ex: "Social media is a double-edged sword." }
       ],
-      pronunciation: 'Pratique a transição rápida e sem interrupções do som do Th (/θ/) em palavras como "think" e "through" para manter a fluência.',
+      pronunciation: 'Pratique o som do "Th" posicionando a língua levemente entre os dentes e soprando o ar ao falar palavras como "think" e "through" para manter a fluência.',
       challenge: 'Fale por 2 minutos sobre as vantagens e desvantagens de morar no exterior na era digital.'
     }
   }
@@ -86,7 +86,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "I am responsible for...", def: "Usado para explicar o que você faz no seu dia a dia.", ex: "I am responsible for managing the database." },
       { term: "Nice to meet you", def: "A forma clássica e polida de cumprimentar um colega no primeiro dia.", ex: "Hi, I am Gabriel. Nice to meet you." }
     ],
-    pronunciation: 'O "-ed" final em verbos como "worked" é pronunciado como um som de /t/ acoplado (/wɜːrkt/), sem formar uma sílaba extra.',
+    pronunciation: 'O "-ed" final em verbos como "worked" soa como um som de T seco acoplado ao verbo. Pronuncie como "wêrkt" (apenas uma sílaba), sem emitir o som de "ed" no fim.',
     challenge: 'Tente gravar um áudio dizendo qual é o seu cargo e pelo que você é responsável na sua empresa atualmente.'
   },
   'negocios-intermediario': {
@@ -96,7 +96,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "I'd like to point out that...", def: "Uma forma polida e profissional de destacar uma informação essencial.", ex: "I'd like to point out that our sales increased by 15%." },
       { term: "Could you elaborate on that?", def: "Forma educada de pedir para alguém explicar melhor ou dar mais detalhes sobre um ponto.", ex: "That is an interesting idea. Could you elaborate on that?" }
     ],
-    pronunciation: 'A pronúncia de "Management" é /ˈmæn.ɪdʒ.mənt/. Atente-se à sílaba tônica que incide no início da palavra (/ˈmæn/).',
+    pronunciation: 'A pronúncia de "Management" soa como MÁN-idj-ment. Lembre-se de colocar toda a intensidade no início da palavra e falar o final rapidamente.',
     challenge: 'Simule a abertura de uma reunião: cumprimente a equipe virtual, inicie os trabalhos e peça para um colega dar mais detalhes sobre o relatório de marketing.'
   },
   'negocios-avancado': {
@@ -116,7 +116,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "I am staying for...", def: "Frase pronta para responder quanto tempo você vai ficar no país.", ex: "I am staying for twelve days in New York." },
       { term: "I am here for tourism", def: "A forma mais direta de explicar o motivo da sua viagem de férias.", ex: "I am here for tourism and sightseeing." }
     ],
-    pronunciation: 'Pronuncie "Airport" /ˈeə.pɔːt/ terminando de forma limpa no som de /t/ oclusivo, sem adicionar vogais no final.',
+    pronunciation: 'A pronúncia de "Airport" soa como ÉR-pôrt. Fale a palavra finalizando o som de forma seca na letra T, sem adicionar vogais no final.',
     challenge: 'Responda em voz alta ao oficial que te pergunta: "What is the purpose of your visit?"'
   },
   'viagem-intermediario': {
@@ -126,7 +126,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "There is an issue with the...", def: "Forma polida e eficaz de reportar que algo não está funcionando no quarto.", ex: "Excuse me, there is an issue with the air conditioning." },
       { term: "Could I get clean towels?", def: "Estrutura educada para pedir objetos ou serviços adicionais.", ex: "Could I get clean towels sent to room 302, please?" }
     ],
-    pronunciation: 'Diferença de pronúncia crítica: "Suite" (suíte de hotel) tem a pronúncia idêntica à palavra "sweet" (/swiːt/). Não confunda com "suit" (terno de roupas, pronunciado /suːt/).',
+    pronunciation: 'Diferença de pronúncia crítica: "Suite" (suíte de hotel) tem a pronúncia idêntica à palavra "sweet" (soa como "suít"). Não confunda com "suit" (terno de roupas, que soa como "sút").',
     challenge: 'Simule uma ligação para a recepção do hotel informando que o chuveiro do seu quarto não está esquentando e peça toalhas extras.'
   },
   'viagem-avancado': {
@@ -146,7 +146,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "I usually wake up at...", def: "Frase essencial para descrever sua rotina de horários.", ex: "I usually wake up at 7 AM on weekdays." },
       { term: "I enjoy listening to...", def: "Dizer seus gostos musicais ou de podcasts de maneira fluida.", ex: "I enjoy listening to rock music while cooking." }
     ],
-    pronunciation: 'Pronúncia de "Like" e "Love": Garanta que o som do "e" no final de ambas as palavras seja mudo. O som termina no som de "k" (/laɪk/) e de "v" (/lʌv/).',
+    pronunciation: 'Pronúncia de "Like" e "Love": O "e" no final de ambas as palavras é mudo. O som deve terminar de forma seca nas consoantes "k" e "v" (como "laik" e "lâv").',
     challenge: 'Diga duas coisas que você faz na sua rotina matinal e qual é o seu hobby favorito nos fins de semana.'
   },
   'conversacao-intermediario': {
@@ -156,7 +156,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "I see your point, but...", def: "Expressão usada para discordar com elegância e educação, reconhecendo o outro lado.", ex: "I see your point, but we still need to think about the costs." },
       { term: "To agree to disagree", def: "Decidir parar a discussão aceitando que ambos têm opiniões diferentes que não mudarão.", ex: "We clearly have different opinions here, so let's agree to disagree." }
     ],
-    pronunciation: 'O som do "Th" na palavra "think" é soprado (sem voz), enquanto em "this" ele é vibrado (com voz). Pratique a língua entre os dentes!',
+    pronunciation: 'O "Th" na palavra "think" é soprado (sem som de voz, como um sopro curto com a língua entre os dentes), enquanto em "this" ele é vibrado (com som de zumbido nas cordas vocais).',
     challenge: 'Diga a sua opinião sobre o trabalho híbrido versus presencial e simule uma discordância amigável com um colega fictício.'
   },
   'conversacao-avancado': {
@@ -166,7 +166,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "It's a double-edged sword", def: "Uma situação que tem aspectos muito positivos, mas também grandes riscos.", ex: "Fame can be a double-edged sword." },
       { term: "To hit the nail on the head", def: "Descrever de forma exata a causa de um problema ou a solução de uma questão.", ex: "Your analysis of the problem really hit the nail on the head." }
     ],
-    pronunciation: 'Domine o "Flapped T" no inglês americano: o som de "T" intervocálico (como em "water" ou "computer") é suavizado em um tepe alveolar rápido (som de /ɾ/).',
+    pronunciation: 'Domine o "Flapped T" no inglês americano: o som de "T" no meio de vogais (como em "water" ou "computer") é suavizado e pronunciado como um toque rápido da língua, idêntico ao nosso som de "R" em "caro" ou "para".',
     challenge: 'Explique de forma resumida o impacto das redes sociais na atenção dos jovens, usando a metáfora da "espada de dois gumes" (double-edged sword).'
   }
 };
