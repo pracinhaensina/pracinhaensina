@@ -170,8 +170,7 @@ export default function Home() {
               Inglês para <span className="gradient-text">todos os objetivos</span>
             </h2>
             <p className="section-subtitle">
-              Não importa se você quer viajar, crescer na carreira ou estudar fora — o
-              método se adapta a você.
+              Se você quer viajar, crescer profissionalmente ou estudar no exterior, tenho métodos para seus objetivos.
             </p>
           </div>
 
@@ -245,8 +244,7 @@ export default function Home() {
               <div className="step-text">
                 <h3>Aula experimental gratuita</h3>
                 <p>
-                  Fazemos uma aula experimental para eu conhecer seu nível e criar seu
-                  plano personalizado.
+                  Aula individualizada com planejamento e material personalizados.
                 </p>
               </div>
             </div>
