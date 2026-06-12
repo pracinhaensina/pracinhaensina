@@ -25,7 +25,7 @@ const studentCases = [
         { term: "Let's get down to business", def: "Expressão usada para iniciar a reunião direto no assunto principal.", ex: "Now that everyone is here, let's get down to business." },
         { term: "I'd like to point out that...", def: "Estrutura polida para chamar a atenção para uma informação crucial.", ex: "I'd like to point out that the deadline is next Friday." }
       ],
-      pronunciation: 'A palavra "Management" não deve soar como "menage-ment". A pronúncia correta é /ˈmæn.ɪdʒ.mənt/ (foco na primeira sílaba forte).',
+      pronunciation: 'A pronúncia correta de "Management" é /ˈmæn.ɪdʒ.mənt/, com a sílaba tônica marcada logo no início (/ˈmæn/).',
       challenge: 'Grave um áudio de 60 segundos abrindo uma reunião sobre o status do projeto e apontando um atraso sutil no cronograma.'
     }
   },
@@ -48,7 +48,7 @@ const studentCases = [
         { term: "I am staying for...", def: "Frase pronta para responder sobre o tempo de permanência no país.", ex: "I am staying for ten days." },
         { term: "I am here for tourism", def: "Frase segura para esclarecer o propósito da sua viagem.", ex: "I am here for tourism and shopping." }
       ],
-      pronunciation: 'Cuidado com a pronúncia de "Airport". Evite adicionar som de "i" no final (nada de "air-porty"). Pare o som no "t" mudo.',
+      pronunciation: 'A pronúncia de "Airport" é /ˈeə.pɔːt/, terminando de forma limpa no som de /t/ oclusivo, sem criar uma sílaba extra.',
       challenge: 'Responda à pergunta do oficial de imigração: "What is the purpose of your visit and how long will you stay?"'
     }
   },
@@ -86,7 +86,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "I am responsible for...", def: "Usado para explicar o que você faz no seu dia a dia.", ex: "I am responsible for managing the database." },
       { term: "Nice to meet you", def: "A forma clássica e polida de cumprimentar um colega no primeiro dia.", ex: "Hi, I am Gabriel. Nice to meet you." }
     ],
-    pronunciation: 'Em inglês, o "ed" no final de verbos como "worked" não deve ser pronunciado como uma nova sílaba (nada de "wor-kéd"). O som final parece com um "t" rápido: /wɜːrkt/.',
+    pronunciation: 'O "-ed" final em verbos como "worked" é pronunciado como um som de /t/ acoplado (/wɜːrkt/), sem formar uma sílaba extra.',
     challenge: 'Tente gravar um áudio dizendo qual é o seu cargo e pelo que você é responsável na sua empresa atualmente.'
   },
   'negocios-intermediario': {
@@ -96,7 +96,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "I'd like to point out that...", def: "Uma forma polida e profissional de destacar uma informação essencial.", ex: "I'd like to point out that our sales increased by 15%." },
       { term: "Could you elaborate on that?", def: "Forma educada de pedir para alguém explicar melhor ou dar mais detalhes sobre um ponto.", ex: "That is an interesting idea. Could you elaborate on that?" }
     ],
-    pronunciation: 'Cuidado com a palavra "Management" (gestão). A pronúncia correta é /ˈmæn.ɪdʒ.mənt/. Não diga "menage-ment". O peso da palavra está no começo.',
+    pronunciation: 'A pronúncia de "Management" é /ˈmæn.ɪdʒ.mənt/. Atente-se à sílaba tônica que incide no início da palavra (/ˈmæn/).',
     challenge: 'Simule a abertura de uma reunião: cumprimente a equipe virtual, inicie os trabalhos e peça para um colega dar mais detalhes sobre o relatório de marketing.'
   },
   'negocios-avancado': {
@@ -116,7 +116,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "I am staying for...", def: "Frase pronta para responder quanto tempo você vai ficar no país.", ex: "I am staying for twelve days in New York." },
       { term: "I am here for tourism", def: "A forma mais direta de explicar o motivo da sua viagem de férias.", ex: "I am here for tourism and sightseeing." }
     ],
-    pronunciation: 'Diga a palavra "Airport" de forma contínua, parando o som no "t" mudo. Não coloque som de "i" no fim, evite "air-porty".',
+    pronunciation: 'Pronuncie "Airport" /ˈeə.pɔːt/ terminando de forma limpa no som de /t/ oclusivo, sem adicionar vogais no final.',
     challenge: 'Responda em voz alta ao oficial que te pergunta: "What is the purpose of your visit?"'
   },
   'viagem-intermediario': {
@@ -166,7 +166,7 @@ const generatorContent: Record<string, { topic: string; vocab: { term: string; d
       { term: "It's a double-edged sword", def: "Uma situação que tem aspectos muito positivos, mas também grandes riscos.", ex: "Fame can be a double-edged sword." },
       { term: "To hit the nail on the head", def: "Descrever de forma exata a causa de um problema ou a solução de uma questão.", ex: "Your analysis of the problem really hit the nail on the head." }
     ],
-    pronunciation: 'Domine o "Flapped T" no inglês americano: o som de "T" no meio de vogais (como em "water" ou "computer") soa levemente como o nosso "R" fraco de "caro".',
+    pronunciation: 'Domine o "Flapped T" no inglês americano: o som de "T" intervocálico (como em "water" ou "computer") é suavizado em um tepe alveolar rápido (som de /ɾ/).',
     challenge: 'Explique de forma resumida o impacto das redes sociais na atenção dos jovens, usando a metáfora da "espada de dois gumes" (double-edged sword).'
   }
 };
