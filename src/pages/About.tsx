@@ -88,8 +88,7 @@ export default function About() {
             {/* Text column */}
             <div className="professor-text">
               <h1>
-                Quem é o{' '}
-                <span className="gradient-text">Professor Gabriel</span>?
+                Quem <span className="gradient-text">sou eu</span>?
               </h1>
               <p>
                 Prazer, sou o Gabriel — professor de inglês, apaixonado por educação e

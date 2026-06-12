@@ -109,8 +109,7 @@ export default function Home() {
         <div className="container">
           <div className="fade-in-section">
             <h2 className="section-title">
-              Por que aprender com o{' '}
-              <span className="gradient-text">Professor Gabriel</span>?
+              Por que aprender <span className="gradient-text">comigo</span>?
             </h2>
           </div>
 
