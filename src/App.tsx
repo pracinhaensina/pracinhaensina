@@ -5,6 +5,7 @@ import WhatsAppFloat from './components/WhatsAppFloat';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import About from './pages/About';
+import MethodologyShowcase from './pages/MethodologyShowcase';
 import Contact from './pages/Contact';
 import './index.css';
 
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<About />} />
+            <Route path="/metodo-na-pratica" element={<MethodologyShowcase />} />
             <Route path="/contato" element={<Contact />} />
           </Routes>
         </main>

@@ -69,6 +69,14 @@ export default function Navbar() {
               Sobre
             </NavLink>
             <NavLink
+              to="/metodo-na-pratica"
+              className={({ isActive }) =>
+                `navbar__link${isActive ? ' active' : ''}`
+              }
+            >
+              Método na Prática
+            </NavLink>
+            <NavLink
               to="/contato"
               className={({ isActive }) =>
                 `navbar__link${isActive ? ' active' : ''}`
@@ -140,6 +148,15 @@ export default function Navbar() {
             onClick={closeMobileMenu}
           >
             Sobre
+          </NavLink>
+          <NavLink
+            to="/metodo-na-pratica"
+            className={({ isActive }) =>
+              `navbar__mobile-link${isActive ? ' active' : ''}`
+            }
+            onClick={closeMobileMenu}
+          >
+            Método na Prática
           </NavLink>
           <NavLink
             to="/contato"

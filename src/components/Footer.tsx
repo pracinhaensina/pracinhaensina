@@ -37,6 +37,9 @@ export default function Footer() {
               <Link to="/sobre" className="footer__link">
                 Sobre
               </Link>
+              <Link to="/metodo-na-pratica" className="footer__link">
+                Método na Prática
+              </Link>
               <Link to="/contato" className="footer__link">
                 Contato
               </Link>
